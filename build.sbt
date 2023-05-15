@@ -10,7 +10,7 @@ lazy val root = (project in file("."))
 libraryDependencies ++= Seq(
   // Kafka
   "org.apache.kafka"    % "kafka-clients"                     % "3.4.0",
-//  "io.confluent"        % "kafka-avro-serializer"             % "7.3.3",
+  "io.confluent"        % "kafka-avro-serializer"             % "7.3.3",
 //  "net.cakesolutions"   %% "scala-kafka-client"               % "2.3.1",
 
   // Kafka Streams

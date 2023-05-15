@@ -1,13 +1,8 @@
-[error] sbt.librarymanagement.ResolveException: Error downloading org.apache.kafka:kafka-streams-test-utils_2.13:3.4.0
+[error] sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:7.3.3
 [error]   Not found
 [error]   Not found
-[error]   not found: /Users/duyhoang/.ivy2/localorg.apache.kafka/kafka-streams-test-utils_2.13/3.4.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams-test-utils_2.13/3.4.0/kafka-streams-test-utils_2.13-3.4.0.pom
-[error] Error downloading net.cakesolutions:scala-kafka-client-testkit_2.13:2.0.0
-[error]   Not found
-[error]   Not found
-[error]   not found: /Users/duyhoang/.ivy2/localnet.cakesolutions/scala-kafka-client-testkit_2.13/2.0.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/net/cakesolutions/scala-kafka-client-testkit_2.13/2.0.0/scala-kafka-client-testkit_2.13-2.0.0.pom
+[error]   not found: /Users/duyhoang/.ivy2/localio.confluent/kafka-avro-serializer/7.3.3/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/7.3.3/kafka-avro-serializer-7.3.3.pom
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:345)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:314)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -38,13 +33,8 @@
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [error] 	at java.base/java.lang.Thread.run(Thread.java:1589)
-[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading org.apache.kafka:kafka-streams-test-utils_2.13:3.4.0
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:7.3.3
 [error]   Not found
 [error]   Not found
-[error]   not found: /Users/duyhoang/.ivy2/localorg.apache.kafka/kafka-streams-test-utils_2.13/3.4.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams-test-utils_2.13/3.4.0/kafka-streams-test-utils_2.13-3.4.0.pom
-[error] Error downloading net.cakesolutions:scala-kafka-client-testkit_2.13:2.0.0
-[error]   Not found
-[error]   Not found
-[error]   not found: /Users/duyhoang/.ivy2/localnet.cakesolutions/scala-kafka-client-testkit_2.13/2.0.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/net/cakesolutions/scala-kafka-client-testkit_2.13/2.0.0/scala-kafka-client-testkit_2.13-2.0.0.pom
+[error]   not found: /Users/duyhoang/.ivy2/localio.confluent/kafka-avro-serializer/7.3.3/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/7.3.3/kafka-avro-serializer-7.3.3.pom
